@@ -3,11 +3,13 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
 		<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+		
 		<title>Project S12</title>
 	</head>
 	<body>
-
+		<div class="container mx-auto py-6 px-3 md:py-12 md:px-6">
 			<h1>
 				home
 			</h1>
@@ -17,25 +19,50 @@
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus vitae accusantium veritatis similique ipsa dolor omnis illo doloribus incidunt vel, accusamus rerum numquam, odio error consectetur, soluta odit facilis explicabo?
 			</p>
 
-			<nav>
-				<ul>
-					<li>	
-						<a href="index.html">home</a>
-					</li>
-					
-					<li>
-					<a href="part1.html">part one</a>
-					</li>
+			
+				
+			
 
-					<li>
-					<a href="part2.html">part two</a>
-					</li>
-					
-					<li>
-					<a href="part3.html">part three</a>
-					</li>
+			<div class="flex flex-wrap mt-12 -mx-2 overflow-hidden">
 
-				</ul>
-			</nav>
+			  <div class="my-2 px-2 w-full overflow-hidden md:w-1/3">
+			  <article><a href="part1.html">
+			    <img alt="doggy" class="block h-auto w-full" src="images/image1.jpg">
+			    </a>
+			    	
+			    	<header class="lg:flex lg:items-center lg:justify-between my-2">
+						<h2 class="text-base">
+							<a class="no-underline text-black hover:text-red" href="part1.html">
+									Story Part One
+							</a>
+						</h2>
+						<p>
+						Septemper 10,2018
+						</p>
+
+					</header>			
+			  </article>
+			    
+			    	
+			  </div>
+
+			  <div class="my-2 px-2 w-full overflow-hidden md:w-1/3">
+			    
+			    <a href="part2.html">
+			    	<img alt="doggie" class="block h-auto w-full" src="images/image2.jpg">
+			    </a>
+			  
+			  </div>
+
+			  <div class="my-2 px-2 w-full overflow-hidden md:w-1/3">
+			    
+			    <a href="part3.html">
+			    
+			    	<img alt="doggo" class="block h-auto w-full" src="images/image3.jpg">
+			    </a>
+			  </div>
+
+</div>
+		</div>	
 	</body>
 	</html>	
